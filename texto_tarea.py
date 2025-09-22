@@ -16,6 +16,6 @@ with open('texto_tarea.txt')as archivo:
        if re.search(r'^\d+\.\-\s', linea):
            titulo.append(linea.strip())
 
-print("titulos:")
+print("titulo:")
 for title in titulo:
     print(title)
