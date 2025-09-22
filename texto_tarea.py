@@ -9,7 +9,7 @@ import string
 import re
 
 titulo=[]
-i=0
+
 
 with open('texto_tarea.txt')as archivo:
     for linea in archivo:
